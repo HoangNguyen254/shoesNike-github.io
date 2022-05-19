@@ -1,0 +1,1263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike Shoes</title>
+    <!-- BS4.6 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- GOOGLE FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <!-- MAGNIFIC -->
+    <link rel="stylesheet" href="./libraries/magnific.css">
+    <!-- OWL CAROUSEL -->
+    <link rel="stylesheet" href="./libraries/owl.carousel.min.css">
+    <link rel="stylesheet" href="./libraries/owl.theme.default.min.css">
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <!--HEADER -->
+    <section id="sideBarHeader" class="p-2">
+        <ul class="pl-0">
+            <li><a href="#">Trang chủ</a></li>
+            <li><a href="#">Giới thiệu</a></li>
+            <li>
+                <div class="mainItem d-flex justify-content-between align-items-center">
+                    <a href="#">Sản phẩm</a>
+                    <i class="fa fa-angle-down"></i>
+                </div>
+                <div class="subMenu pl-3">
+                    <a class="subItem" href="#">Adidas</a>
+                    <a class="subItem" href="#">Nike</a>
+                    <a class="subItem" href="#">Converse</a>
+                    <a class="subItem" href="#">Van</a>
+                    <a class="subItem" href="#">Puma</a>
+                    <a class="subItem" href="#">FILA</a>
+                    <a class="subItem" href="#">MLA</a>
+                    <a class="subItem" href="#">New Balance<a>
+                </div>
+            </li>
+            <li><a href="#">Tin tức</a></li>
+            <li><a href="#">Liên hệ</a></li>
+        </ul>
+    </section>
+    <div class="sideBarHeaderOverlay"></div>
+    <header id="navbarNike">
+        <nav class="navbar navbar-expand-lg justify-content-between container align-items-center px-0">
+            <a class="navbar-brand" href="#">
+                <img src="./img/logo.webp" alt="logo">
+            </a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Trang chủ </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Giới thiệu</a>
+                    </li>
+                    <li class="nav-item navbarNike-menu">
+                        <a class="nav-link" href="#">
+                            Sản phẩm
+                            <i class="fa fa-angle-down"></i>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Adidas</a>
+                            <a class="dropdown-item" href="#">Nike</a>
+                            <a class="dropdown-item" href="#">Converse</a>
+                            <a class="dropdown-item" href="#">Van</a>
+                            <a class="dropdown-item" href="#">Puma</a>
+                            <a class="dropdown-item" href="#">FILA</a>
+                            <a class="dropdown-item" href="#">MLA</a>
+                            <a class="dropdown-item" href="#">New Balance<a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tin tức</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header__icon">
+                <ul class="d-flex navbar-nav align-items-center">
+                    <li class="nav-item">
+                        <i class="fa fa-search"></i>
+                        <div class="searchHeader">
+                            <input class="p-2 border-0" type="email" placeholder="Nhập địa chỉ email...">
+                            <button class="border-0 py-0 bg-white"><i class="fa fa-search"></i></button>
+                        </div>
+                    </li>
+                    <li class="nav-item"> <i class="fa fa-user"></i>
+                        <div class="searchHeader header__user">
+                            <ul class="bg-white pl-0">
+                                <li><a href="#">Đăng nhập</a></li>
+                                <li><a href="#">Đăng ký</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <i class="fa fa-heart"></i>
+                        <div class="header__hearts" id="hearts">0</div>
+                    </li>
+                    <li class="nav-item">
+                        <i class="fa fa-shopping-cart"></i>
+                        <div class="searchHeader header__user header__cart">
+                            <ul class="bg-white pl-0">
+                                <li><img src="./img/download.png" class="img-fluid" alt=""></li>
+                                <li><a href="#">Không có sản phẩm nào trong giỏ hàng của bạn</a></li>
+                            </ul>
+                        </div>
+                        <div class="header__hearts" id="carts">0</div>
+                    </li>
+                    <button class="navbar-toggler p-0 border-0" type="button" data-toggle="collapse" data-target="">
+                        <span class="navbar-toggler-icon text-white"><i class="fa fa-align-left"></i></span>
+                    </button>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- CAROUSEL -->
+    <section class="carouselNike" title="ND Shoes">
+
+    </section>
+    <!-- SERVICE -->
+    <section class="serviceNike">
+        <div class="owl-carousel carouselNikeService pt-4 pb-3 d-flex align-items-center container">
+            <div class="serviceNike__content">
+                <img src="./img/icon_service_1.svg" alt="" class="pb-3">
+                <h3>GIAO HÀNG TOÀN QUỐC</h3>
+                <p>Miễn phí vận chuyển với các đơn hàng trị giá trên 2.000.000Đ</p>
+            </div>
+            <div class="serviceNike__content">
+                <img src="./img/icon_service_2.svg" alt="" class="pb-3">
+                <h3>HỖ TRỢ ONLINE 24/24</h3>
+                <p>Luôn hỗ trợ khách hàng 24/24 tất cả các ngày trong tuần</p>
+            </div>
+            <div class="serviceNike__content">
+                <img src="./img/icon_service_3.svg" alt="" class="pb-3">
+                <h3>ĐỔI HÀNG DỄ DÀNG</h3>
+                <p>Miễn phí đổi trả trong vòng 30 ngày đầu tiên cho tất cả các mặt hàng</p>
+            </div>
+            <div class="serviceNike__content">
+                <img src="./img/icon_service_4.svg" alt="" class="pb-3">
+                <h3>QUÀ TẶNG HẤP DẪN</h3>
+                <p>Chương trình khuyến mãi cực lớn và hấp dẫn hàng tháng</p>
+            </div>
+
+        </div>
+    </section>
+    <!-- PRODUCTS -->
+    <section class="productsNike text-left mt-5">
+        <div class="productsNike__content container">
+            <h1 class="tilteNike text-center">SẢN PHẨM MỚI</h1>
+            <p class="text-center">Các sản phẩm mới có tại cửa hàng</p>
+        </div>
+        <div class="productsNike__list">
+            <div class="owl-carousel productsNike__listItem container">
+                <div id="airForceCam" class="card card-hover border-0">
+                    <img src="./img/sp8-cam-trang.webp" class="card-img-top" alt="shoes" class="first">
+                    <img src="./img/sp87-cam-trang.webp" class="card-img-top" alt="shoes" class="second">
+                    <div class="card-body">
+                        <h5 class="card-title">NIKE</h5>
+                        <p class="card-text">Nike Air Force 1 07 Cam</p>
+                        <p class="card-text new">5.000.000<u>đ</u></p>
+                    </div>
+                    <span class="card-heart"><i class="fa fa-heart"></i></span>
+                    <span class="card-shopCart"><i class="fa fa-shopping-cart"></i></span>
+                </div>
+                <div id="airForceLV8" class="card card-hover border-0">
+                    <img src="./img/sp7-tim-xanh.webp" class="card-img-top" alt="shoes" class="first">
+                    <img src="./img/sp7-den-do.webp" class="card-img-top" alt="shoes" class="second">
+                    <div class="card-body">
+                        <h5 class="card-title">NIKE</h5>
+                        <p class="card-text">Nike Air Force 1 07 LV8</p>
+                        <p class="card-text new">3.900.000<u>đ</u></p>
+                    </div>
+                    <span class="card-heart"><i class="fa fa-heart"></i></span>
+                    <span class="card-shopCart"><i class="fa fa-shopping-cart"></i></span>
+                    <div class="card-selectBox">
+                        <span class="card-select active">
+                            <img src="./img/sp7-den-do.webp" alt="">
+                        </span>
+                        <span class="card-select">
+                            <img src="./img/sp7-trang-xanh.webp" alt="">
+                        </span>
+                    </div>
+                    <div class="card-size">
+                        <span class="active">40</span>
+                        <span class="">41</span>
+                        <span>42</span>
+                        +2
+                    </div>
+                </div>
+                <div id="airForce107" class="card card-hover border-0">
+                    <img src="./img/sp6-den.webp" class="card-img-top" alt="shoes" class="first">
+                    <img src="./img/sp6-trang.webp" class="card-img-top" alt="shoes" class="second">
+                    <div class="card-body">
+                        <h5 class="card-title">NIKE</h5>
+                        <p class="card-text">Nike Air Force 1 07</p>
+                        <p class="card-text">2.000.000<u>đ</u></p>
+                        <p class="card-text old">3.000.000<u>đ</u></p>
+                    </div>
+                    <span class="card-heart"><i class="fa fa-heart"></i></span>
+                    <span class="card-shopCart"><i class="fa fa-shopping-cart"></i></span>
+                    <div class="card-selectBox card-select--modify">
+                        <span class="card-select active">
+                            <img src="./img/sp6-den.webp" alt="">
+                        </span>
+                        <span class="card-select">
+                            <img src="./img/sp6-trang.webp" alt="">
+                        </span>
+                    </div>
+                    <div class="card-size">
+                        <span class="active">40</span>
+                        <span>41</span>
+                        <span>42</span>
+                        +2
+                    </div>
+                    <div class="card-discount">
+                        -34%
+                    </div>
+                </div>
+                <div id="lebron19" class="card card-hover border-0">
+                    <img src="./img/sp55.webp" class="card-img-top" alt="shoes" class="first">
+                    <img src="./img/sp52.webp" class="card-img-top" alt="shoes" class="second">
+                    <div class="card-body">
+                        <h5 class="card-title">NIKE</h5>
+                        <p class="card-text">Lebron 19</p>
+                        <p class="card-text">20.000<u>đ</u></p>
+                    </div>
+                    <span class="card-heart"><i class="fa fa-heart"></i></span>
+                    <span class="card-shopCart"><i class="fa fa-shopping-cart"></i></span>
+                </div>
+            </div>
+            <div class="owl-carousel productsNike__listItem container hide">
+                <div id="KAWS" class="card card-hover border-0">
+                    <img src="./img/sp4-xanh.webp" class="card-img-top" alt="shoes" class="first">
+                    <img src="./img/sp4-do.webp" class="card-img-top" alt="shoes" class="second">
+                    <div class="card-body">
+                        <h5 class="card-title">NIKE</h5>
+                        <p class="card-text">Nike Air Force KAWS</p>
+                        <p class="card-text">5.000.000<u>đ</u></p>
+                    </div>
+                    <span class="card-heart"><i class="fa fa-heart"></i></span>
+                    <span class="card-shopCart"><i class="fa fa-shopping-cart"></i></span>
+                </div>
+                <div id="MAX90" class="card card-hover border-0">
+                    <img src="./img/sp3.webp" class="card-img-top" alt="shoes" class="first">
+                    <img src="./img/sp32.webp" class="card-img-top" alt="shoes" class="second">
+                    <div class="card-body">
+                        <h5 class="card-title">NIKE</h5>
+                        <p class="card-text">Nike Air Max 90</p>
+                        <p class="card-text">3.900.000<u>đ</u></p>
+                    </div>
+                    <span class="card-heart"><i class="fa fa-heart"></i></span>
+                    <span class="card-shopCart"><i class="fa fa-shopping-cart"></i></span>
+                    <div class="card-selectBox">
+                        <span class="card-select active">
+                            <img src="./img/sp7-den-do.webp" alt="">
+                        </span>
+                        <span class="card-select">
+                            <img src="./img/sp7-trang-xanh.webp" alt="">
+                        </span>
+                    </div>
+
+                </div>
+                <div id="PRM" class="card card-hover border-0">
+                    <img src="./img/sp2.webp" class="card-img-top" alt="shoes" class="first">
+                    <img src="./img/sp22.webp" class="card-img-top" alt="shoes" class="second">
+                    <div class="card-body">
+                        <h5 class="card-title">NIKE</h5>
+                        <p class="card-text">Nike Air PRM QS</p>
+                        <p class="card-text">2.000.000<u>đ</u></p>
+                        <p class="card-text old">3.000.000<u>đ</u></p>
+                    </div>
+                    <span class="card-heart"><i class="fa fa-heart"></i></span>
+                    <span class="card-shopCart"><i class="fa fa-shopping-cart"></i></span>
+                    <div class="card-selectBox card-select--modify">
+                        <span class="card-select active">
+                            <img src="./img/sp6-den.webp" alt="">
+                        </span>
+                        <span class="card-select">
+                            <img src="./img/sp6-trang.webp" alt="">
+                        </span>
+                    </div>
+                    <div class="card-discount">
+                        -34%
+                    </div>
+                </div>
+                <div id="Kyrie" class="card card-hover border-0">
+                    <img src="./img/kyrie-den.webp" class="card-img-top" alt="shoes" class="first">
+                    <img src="./img/kyrie-den-2.webp" class="card-img-top" alt="shoes" class="second">
+                    <div class="card-body">
+                        <h5 class="card-title">NIKE</h5>
+                        <p class="card-text">Kyrie Infinity</p>
+                        <p class="card-text">20.000<u>đ</u></p>
+                    </div>
+                    <span class="card-heart"><i class="fa fa-heart"></i></span>
+                    <span class="card-shopCart"><i class="fa fa-shopping-cart"></i></span>
+                </div>
+            </div>
+            <div class="productsShowAll">
+                <span>Xem tất cả</span>
+            </div>
+        </div>
+    </section>
+    <!-- FASTSALE -->
+    <section class="fastSale container">
+        <div class="productsNike__content container">
+            <h1 class="tilteNike text-center">SẢN PHẨM BÁN CHẠY</h1>
+            <p class="text-center">Các sản phẩm bán chạy tại cửa hàng có tại cửa hàng</p>
+        </div>
+        <div class="fastSale__banner">
+            <a href="#"></a>
+        </div>
+        <div class="productsNike__list">
+            <div class="owl-carousel productsNike__listItem container">
+                <div id="airForceCam" class="card card-hover border-0">
+                    <img src="./img/sp8-cam-trang.webp" class="card-img-top" alt="shoes" class="first">
+                    <img src="./img/sp87-cam-trang.webp" class="card-img-top" alt="shoes" class="second">
+                    <div class="card-body">
+                        <h5 class="card-title">NIKE</h5>
+                        <p class="card-text">Nike Air Force 1 07 Cam</p>
+                        <p class="card-text new">5.000.000<u>đ</u></p>
+                    </div>
+                    <span class="card-heart"><i class="fa fa-heart"></i></span>
+                    <span class="card-shopCart"><i class="fa fa-shopping-cart"></i></span>
+                </div>
+                <div id="airForceLV8" class="card card-hover border-0">
+                    <img src="./img/sp7-tim-xanh.webp" class="card-img-top" alt="shoes" class="first">
+                    <img src="./img/sp7-den-do.webp" class="card-img-top" alt="shoes" class="second">
+                    <div class="card-body">
+                        <h5 class="card-title">NIKE</h5>
+                        <p class="card-text">Nike Air Force 1 07 LV8</p>
+                        <p class="card-text new">3.900.000<u>đ</u></p>
+                    </div>
+                    <span class="card-heart"><i class="fa fa-heart"></i></span>
+                    <span class="card-shopCart"><i class="fa fa-shopping-cart"></i></span>
+                    <div class="card-selectBox">
+                        <span class="card-select active">
+                            <img src="./img/sp7-den-do.webp" alt="">
+                        </span>
+                        <span class="card-select">
+                            <img src="./img/sp7-trang-xanh.webp" alt="">
+                        </span>
+                    </div>
+                    <div class="card-size">
+                        <span class="active">40</span>
+                        <span class="">41</span>
+                        <span>42</span>
+                        +2
+                    </div>
+                </div>
+                <div id="airForce107" class="card card-hover border-0">
+                    <img src="./img/sp6-den.webp" class="card-img-top" alt="shoes" class="first">
+                    <img src="./img/sp6-trang.webp" class="card-img-top" alt="shoes" class="second">
+                    <div class="card-body">
+                        <h5 class="card-title">NIKE</h5>
+                        <p class="card-text">Nike Air Force 1 07</p>
+                        <p class="card-text">2.000.000<u>đ</u></p>
+                        <p class="card-text old">3.000.000<u>đ</u></p>
+                    </div>
+                    <span class="card-heart"><i class="fa fa-heart"></i></span>
+                    <span class="card-shopCart"><i class="fa fa-shopping-cart"></i></span>
+                    <div class="card-selectBox card-select--modify">
+                        <span class="card-select active">
+                            <img src="./img/sp6-den.webp" alt="">
+                        </span>
+                        <span class="card-select">
+                            <img src="./img/sp6-trang.webp" alt="">
+                        </span>
+                    </div>
+                    <div class="card-size">
+                        <span class="active">40</span>
+                        <span>41</span>
+                        <span>42</span>
+                        +2
+                    </div>
+                    <div class="card-discount">
+                        -34%
+                    </div>
+                </div>
+                <div id="lebron19" class="card card-hover border-0">
+                    <img src="./img/sp55.webp" class="card-img-top" alt="shoes" class="first">
+                    <img src="./img/sp52.webp" class="card-img-top" alt="shoes" class="second">
+                    <div class="card-body">
+                        <h5 class="card-title">NIKE</h5>
+                        <p class="card-text">Lebron 19</p>
+                        <p class="card-text">20.000<u>đ</u></p>
+                    </div>
+                    <span class="card-heart"><i class="fa fa-heart"></i></span>
+                    <span class="card-shopCart"><i class="fa fa-shopping-cart"></i></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SNEAKER -->
+    <section class="sneaker pt-5">
+        <div class="productsNike__content container">
+            <h1 class="tilteNike text-center">SNEAKER</h1>
+            <p class="text-center">Các sản phẩm Sneakers có tại ND Shoes</p>
+        </div>
+        <ul class="nav nav-pills mb-5 justify-content-center container" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#Adidas" role="tab"
+                    aria-controls="pills-home" aria-selected="true">Adidas</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#Nike" role="tab"
+                    aria-controls="pills-profile" aria-selected="false">Nike</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#Converse" role="tab"
+                    aria-controls="pills-contact" aria-selected="false">Converse</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#Vans" role="tab"
+                    aria-controls="pills-contact" aria-selected="false">Vans</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#Puma" role="tab"
+                    aria-controls="pills-contact" aria-selected="false">Puma</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#FILA" role="tab"
+                    aria-controls="pills-contact" aria-selected="false">FILA</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#MLB" role="tab"
+                    aria-controls="pills-contact" aria-selected="false">MLB</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#New Balance" role="tab"
+                    aria-controls="pills-contact" aria-selected="false">New Balance</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="Adidas" role="tabpanel" aria-labelledby="pills-home-tab">
+                <div class="productsNike__list">
+                    <div class="justify-content-center owl-carousel productsNike__listItem container d-flex">
+                        <div class="card card-hover border-0">
+                            <img src="./img/sp8-cam-trang.webp" class="card-img-top img-fluid" alt="shoes"
+                                class="first">
+                            <img src="./img/sp87-cam-trang.webp" class="card-img-top img-fluid" alt="shoes"
+                                class="second">
+                            <div class="card-body">
+                                <h5 class="card-title">ADIDAS</h5>
+                                <p class="card-text">GIÀY Ultraboost 4.0 DNA</p>
+                                <p class="card-text">4.500.000<u>đ</u></p>
+                            </div>
+                            <span class="card-shopCart"><i class="fa fa-shopping-cart"></i></span>
+                            <span class="card-heart"><i class="fa fa-heart"></i></span>
+                        </div>
+                        <div class="card card-hover border-0">
+                            <img src="./img/sp6-den.webp" class="card-img-top" alt="shoes" class="first">
+                            <img src="./img/sp6-trang.webp" class="card-img-top" alt="shoes" class="second">
+                            <div class="card-body">
+                                <h5 class="card-title">NIKE</h5>
+                                <p class="card-text">Nike Air Force 1 07</p>
+                                <p class="card-text">2.000.000<u>đ</u></p>
+                                <p class="card-text old">3.000.000<u>đ</u></p>
+                            </div>
+                            <span class="card-heart"><i class="fa fa-heart"></i></span>
+                            <span class="card-shopCart"><i class="fa fa-shopping-cart"></i></span>
+                            <div class="card-selectBox card-select--modify">
+                                <span class="card-select active">
+                                    <img src="./img/sp6-den.webp" class="d-block img-fluid" alt="">
+                                </span>
+                                <span class="card-select">
+                                    <img src="./img/sp6-trang.webp" class="d-block img-fluid" alt="">
+                                </span>
+                            </div>
+                            <div class="card-size">
+                                <span class="active">40</span>
+                                <span>41</span>
+                                <span>42</span>
+                                +2
+                            </div>
+                            <div class="card-discount">
+                                -34%
+                            </div>
+                        </div>
+                        <div class="card card-hover border-0">
+                            <img src="./img/sp8-cam-trang.webp" class="card-img-top" alt="shoes" class="first">
+                            <img src="./img/sp87-cam-trang.webp" class="card-img-top" alt="shoes" class="second">
+                            <div class="card-body">
+                                <h5 class="card-title">NIKE</h5>
+                                <p class="card-text">Nike Air Force 1 07 Cam</p>
+                                <p class="card-text">5.000.000<u>đ</u></p>
+                            </div>
+                            <span class="card-shopCart"><i class="fa fa-shopping-cart"></i></span>
+                            <span class="card-heart"><i class="fa fa-heart"></i></span>
+                        </div>
+                        <div class="card card-hover border-0">
+                            <img src="./img/sp6-den.webp" class="card-img-top" alt="shoes" class="first">
+                            <img src="./img/sp6-trang.webp" class="card-img-top" alt="shoes" class="second">
+                            <div class="card-body">
+                                <h5 class="card-title">NIKE</h5>
+                                <p class="card-text">Nike Air Force 1 07</p>
+                                <p class="card-text">2.000.000<u>đ</u></p>
+                                <p class="card-text old">3.000.000<u>đ</u></p>
+                            </div>
+                            <span class="card-heart"><i class="fa fa-heart"></i></span>
+                            <span class="card-shopCart"><i class="fa fa-shopping-cart"></i></span>
+                            <div class="card-selectBox card-select--modify">
+                                <span class="card-select active">
+                                    <img src="./img/sp6-den.webp" class="img-fluid d-block" alt="">
+                                </span>
+                                <span class="card-select">
+                                    <img src="./img/sp6-trang.webp" class="img-fluid d-block" alt="">
+                                </span>
+                            </div>
+                            <div class="card-size">
+                                <span class="active">40</span>
+                                <span>41</span>
+                                <span>42</span>
+                                +2
+                            </div>
+                            <div class="card-discount">
+                                -34%
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="justify-content-center owl-carousel productsNike__listItem container d-flex">
+                        <div class="card card-hover border-0">
+                            <img src="./img/sp8-cam-trang.webp" class="card-img-top img-fluid" alt="shoes"
+                                class="first">
+                            <img src="./img/sp87-cam-trang.webp" class="card-img-top img-fluid" alt="shoes"
+                                class="second">
+                            <div class="card-body">
+                                <h5 class="card-title">ADIDAS</h5>
+                                <p class="card-text">GIÀY Ultraboost 4.0 DNA</p>
+                                <p class="card-text">4.500.000<u>đ</u></p>
+                            </div>
+                            <span class="card-shopCart"><i class="fa fa-shopping-cart"></i></span>
+                            <span class="card-heart"><i class="fa fa-heart"></i></span>
+                        </div>
+                        <div class="card card-hover border-0">
+                            <img src="./img/sp6-den.webp" class="card-img-top" alt="shoes" class="first">
+                            <img src="./img/sp6-trang.webp" class="card-img-top" alt="shoes" class="second">
+                            <div class="card-body">
+                                <h5 class="card-title">NIKE</h5>
+                                <p class="card-text">Nike Air Force 1 07</p>
+                                <p class="card-text">2.000.000<u>đ</u></p>
+                                <p class="card-text old">3.000.000<u>đ</u></p>
+                            </div>
+                            <span class="card-heart"><i class="fa fa-heart"></i></span>
+                            <span class="card-shopCart"><i class="fa fa-shopping-cart"></i></span>
+                            <div class="card-selectBox card-select--modify">
+                                <span class="card-select active">
+                                    <img src="./img/sp6-den.webp" class="d-block img-fluid" alt="">
+                                </span>
+                                <span class="card-select">
+                                    <img src="./img/sp6-trang.webp" class="d-block img-fluid" alt="">
+                                </span>
+                            </div>
+                            <div class="card-size">
+                                <span class="active">40</span>
+                                <span>41</span>
+                                <span>42</span>
+                                +2
+                            </div>
+                            <div class="card-discount">
+                                -34%
+                            </div>
+                        </div>
+                        <div class="card card-hover border-0">
+                            <img src="./img/sp8-cam-trang.webp" class="card-img-top" alt="shoes" class="first">
+                            <img src="./img/sp87-cam-trang.webp" class="card-img-top" alt="shoes" class="second">
+                            <div class="card-body">
+                                <h5 class="card-title">NIKE</h5>
+                                <p class="card-text">Nike Air Force 1 07 Cam</p>
+                                <p class="card-text">5.000.000<u>đ</u></p>
+                            </div>
+                            <span class="card-shopCart"><i class="fa fa-shopping-cart"></i></span>
+                            <span class="card-heart"><i class="fa fa-heart"></i></span>
+                        </div>
+                        <div class="card card-hover border-0">
+                            <img src="./img/sp6-den.webp" class="card-img-top" alt="shoes" class="first">
+                            <img src="./img/sp6-trang.webp" class="card-img-top" alt="shoes" class="second">
+                            <div class="card-body">
+                                <h5 class="card-title">NIKE</h5>
+                                <p class="card-text">Nike Air Force 1 07</p>
+                                <p class="card-text">2.000.000<u>đ</u></p>
+                                <p class="card-text old">3.000.000<u>đ</u></p>
+                            </div>
+                            <span class="card-heart"><i class="fa fa-heart"></i></span>
+                            <span class="card-shopCart"><i class="fa fa-shopping-cart"></i></span>
+                            <div class="card-selectBox card-select--modify">
+                                <span class="card-select active">
+                                    <img src="./img/sp6-den.webp" class="img-fluid d-block" alt="">
+                                </span>
+                                <span class="card-select">
+                                    <img src="./img/sp6-trang.webp" class="img-fluid d-block" alt="">
+                                </span>
+                            </div>
+                            <div class="card-size">
+                                <span class="active">40</span>
+                                <span>41</span>
+                                <span>42</span>
+                                +2
+                            </div>
+                            <div class="card-discount">
+                                -34%
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="tab-pane fade" id="Nike" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <div class="productsNike__list">
+                    <div class="owl-carousel productsNike__listItem container d-flex">
+
+                        <div class="card card-hover border-0">
+                            <img src="./img/sp8-cam-trang.webp" class="card-img-top img-fluid" alt="shoes"
+                                class="first">
+                            <img src="./img/sp87-cam-trang.webp" class="card-img-top img-fluid" alt="shoes"
+                                class="second">
+                            <div class="card-body">
+                                <h5 class="card-title">ADIDAS</h5>
+                                <p class="card-text">GIÀY Ultraboost 4.0 DNA</p>
+                                <p class="card-text">4.500.000<u>đ</u></p>
+                            </div>
+                            <span class="card-heart"><i class="fa fa-heart"></i></span>
+                        </div>
+                        <div class="card card-hover border-0">
+                            <img src="./img/sp6-den.webp" class="card-img-top" alt="shoes" class="first">
+                            <img src="./img/sp6-trang.webp" class="card-img-top" alt="shoes" class="second">
+                            <div class="card-body">
+                                <h5 class="card-title">NIKE</h5>
+                                <p class="card-text">Nike Air Force 1 07</p>
+                                <p class="card-text">2.000.000<u>đ</u></p>
+                                <p class="card-text old">3.000.000<u>đ</u></p>
+                            </div>
+                            <span class="card-heart"><i class="fa fa-heart"></i></span>
+                            <span class="card-shopCart"><i class="fa fa-shopping-cart"></i></span>
+                            <div class="card-selectBox card-select--modify">
+                                <span class="card-select active">
+                                    <img src="./img/sp6-den.webp" class="d-block img-fluid" alt="">
+                                </span>
+                                <span class="card-select">
+                                    <img src="./img/sp6-trang.webp" class="d-block img-fluid" alt="">
+                                </span>
+                            </div>
+                            <div class="card-size">
+                                <span class="active">40</span>
+                                <span>41</span>
+                                <span>42</span>
+                                +2
+                            </div>
+                            <div class="card-discount">
+                                -34%
+                            </div>
+                        </div>
+                        <div class="card card-hover border-0">
+                            <img src="./img/sp8-cam-trang.webp" class="card-img-top" alt="shoes" class="first">
+                            <img src="./img/sp87-cam-trang.webp" class="card-img-top" alt="shoes" class="second">
+                            <div class="card-body">
+                                <h5 class="card-title">NIKE</h5>
+                                <p class="card-text">Nike Air Force 1 07 Cam</p>
+                                <p class="card-text">5.000.000<u>đ</u></p>
+                            </div>
+                            <span class="card-heart"><i class="fa fa-heart"></i></span>
+                        </div>
+                        <div class="card card-hover border-0">
+                            <img src="./img/sp6-den.webp" class="card-img-top" alt="shoes" class="first">
+                            <img src="./img/sp6-trang.webp" class="card-img-top" alt="shoes" class="second">
+                            <div class="card-body">
+                                <h5 class="card-title">NIKE</h5>
+                                <p class="card-text">Nike Air Force 1 07</p>
+                                <p class="card-text">2.000.000<u>đ</u></p>
+                                <p class="card-text old">3.000.000<u>đ</u></p>
+                            </div>
+                            <span class="card-heart"><i class="fa fa-heart"></i></span>
+                            <span class="card-shopCart"><i class="fa fa-shopping-cart"></i></span>
+                            <div class="card-selectBox card-select--modify">
+                                <span class="card-select active">
+                                    <img src="./img/sp6-den.webp" class="img-fluid d-block" alt="">
+                                </span>
+                                <span class="card-select">
+                                    <img src="./img/sp6-trang.webp" class="img-fluid d-block" alt="">
+                                </span>
+                            </div>
+                            <div class="card-size">
+                                <span class="active">40</span>
+                                <span>41</span>
+                                <span>42</span>
+                                +2
+                            </div>
+                            <div class="card-discount">
+                                -34%
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="Converse" role="tabpanel" aria-labelledby="pills-contact-tab">Converse</div>
+            <div class="tab-pane fade" id="Vans" role="tabpanel" aria-labelledby="pills-contact-tab">Vans</div>
+            <div class="tab-pane fade" id="Puma" role="tabpanel" aria-labelledby="pills-contact-tab">Puma</div>
+            <div class="tab-pane fade" id="FILA" role="tabpanel" aria-labelledby="pills-contact-tab">FILA</div>
+            <div class="tab-pane fade" id="MLB" role="tabpanel" aria-labelledby="pills-contact-tab">MLB</div>
+            <div class="tab-pane fade" id="New Balance" role="tabpanel" aria-labelledby="pills-contact-tab">New Balance
+            </div>
+        </div>
+    </section>
+    <!-- TOOLNIKE -->
+    <section class="toolNike ">
+        <div class="productsNike__content container">
+            <h1 class="tilteNike text-center">PHỤ KIỆN</h1>
+            <p class="text-center">Tất cả phụ kiện có tại ND Stores</p>
+        </div>
+        <div class="toolNike__banner container px-0">
+            <div class="row mx-0">
+                <div class="banner__left col-md-6 col-12 px-0">
+                    <div class="banner__img">
+                        <img src="./img/accessories_1.webp" class="img-fluid" alt="">
+                        <div class="banner__detail">
+                            <h3>Khóa giày</h3>
+                            <p>Xem thêm
+                                <i class="fa fa-long-arrow-alt-right"></i>
+                            </p>
+                        </div>
+                        <div class="banner__overlay"></div>
+                    </div>
+
+                </div>
+                <div class="banner__right col-6 px-0">
+                    <div class="banner__img">
+                        <img src="./img/accessories_2.webp" class="img-fluid" alt="">
+                        <div class="banner__detail">
+                            <h3>Tất giày</h3>
+                            <p>Xem thêm
+                                <i class="fa fa-long-arrow-alt-right"></i>
+                            </p>
+                        </div>
+                        <div class="banner__overlay"></div>
+                    </div>
+                    <div class="banner__img">
+                        <img src="./img/accessories_3.webp" class="img-fluid" alt="">
+                        <div class="banner__detail">
+                            <h3>Dây giày</h3>
+                            <p>Xem thêm
+                                <i class="fa fa-long-arrow-alt-right"></i>
+                            </p>
+                        </div>
+                        <div class="banner__overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="productsShowAll">
+            <span>Xem tất cả</span>
+        </div>
+    </section>
+
+    <!-- FEEDBACKS -->
+    <section class="feedbacks py-3 py-md-5">
+        <div class="productsNike__content container">
+            <h1 class="tilteNike text-center">FEEDBACK</h1>
+            <p class="text-center mb-4">
+                Album feedback của khách hàng về ND Shoes
+            </p>
+        </div>
+
+        <div class="feedback__img owl-carousel container">
+            <div class="item">
+                <img src="./img/feedback_1.webp" class="img-fluid" alt="">
+                <img src="./img/feedback_5.webp" class="img-fluid" alt="">
+            </div>
+            <div class="item">
+                <img src="./img/feedback_2.webp" class="img-fluid" alt="">
+                <img src="./img/feedback_6.webp" class="img-fluid" alt="">
+            </div>
+            <div class="item">
+                <img src="./img/feedback_3.webp" class="img-fluid" alt="">
+                <img src="./img/feedback_7.webp" class="img-fluid" alt="">
+            </div>
+            <div class="item">
+                <img src="./img/feedback_4.webp" class="img-fluid" alt="">
+                <img src="./img/feedback_8.webp" class="img-fluid" alt="">
+            </div>
+            <div class="item">
+                <img src="./img/feedback_9.webp" class="img-fluid" alt="">
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- NEWS -->
+    <section class="newsNike mt-5 container">
+        <div class="productsNike__content container">
+            <h1 class="tilteNike text-center">TIN TỨC</h1>
+            <p class="text-center mb-4">
+                Tổng hợp tin tức, mẹo vặt cho bạn
+            </p>
+        </div>
+        <div class="newsNike__news">
+            <div class="row mx-0">
+                <div class="col-12 col-md-4 newsNike__video px-0">
+                    <div class="card border-0">
+                        <a class="popup-youtube" href="https://www.youtube.com/watch?v=c8Q99vaRuCY">
+                            <img src="./img/t7.webp" class="card-img-top" alt="...">
+                        </a>
+                        <div class="card-body px-0 pt-4">
+                            <h5 class="card-title moreHover">King James mang đôi OFF-WHITE x Nike Air Force 1 University
+                                Yellow
+                                của...</h5>
+                            <p class="newsNike__status">
+                                <i class="fa fa-user"></i>
+                                <span class="newsNike__userName">Nguyễn Anh Dũng</span>
+                                <i class="fa fa-clock"></i>
+                                <span class="newsNike__time">21/12/2012</span>
+                            </p>
+                            <p class="card-text">OFF-WHITE x Nike Air Force 1 University Yellow là đôi sneakers được hé
+                                lộ trong website public—domain.com, một websi...</p>
+                            <p class="moreHover">Xem thêm
+                                <i class="fa fa-long-arrow-alt-right"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 px-0 mx-0 mx-md-2">
+                    <div class="card border-0">
+                        <a href="#">
+                            <img src="./img/t5.webp" class="card-img-top" alt="...">
+                        </a>
+                        <div class="card-body px-md-0  pl-3 pl-md-0 pt-md-4 pt-0">
+                            <h5 class="card-title moreHover">Hàng loạt các phối màu của adidas Stan Smith được tung ra
+                                dành cho tín
+                                ...</h5>
+                            <p class="newsNike__status mb-0 mb-md-3">
+                                <i class="fa fa-user"></i>
+                                <span class="newsNike__userName">Nguyễn Anh Dũng</span>
+                                <i class="fa fa-clock"></i>
+                                <span class="newsNike__time">21/12/2012</span>
+                            </p>
+                            <p class="card-text mb-0 mb-md-4">adidas Stan Smith đã không còn xa lạ với bất cứ ai yêu mến
+                                sneakers
+                                trên toàn cầu nói chung và tại Việt Nam nói riên......</p>
+                            <p class="moreHover">Xem thêm
+                                <i class="fa fa-long-arrow-alt-right"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 px-0">
+                    <div class="card border-0">
+                        <a href="#">
+                            <img src="./img/t6.webp" class="card-img-top img-fluid" alt="...">
+                        </a>
+                        <div class="card-body px-md-0 pl-3 pl-md-0 pt-md-4 pt-0">
+                            <h5 class="card-title moreHover">Nike AIR FORCE 1 Love Women – Phối màu dành riêng cho một
+                                nửa thế giới
+                                ...</h5>
+                            <p class="newsNike__status mb-0 mb-md-3">
+                                <i class="fa fa-user"></i>
+                                <span class="newsNike__userName">Nguyễn Anh Dũng</span>
+                                <i class="fa fa-clock"></i>
+                                <span class="newsNike__time">21/12/2012</span>
+                            </p>
+                            <p class="card-text mb-0 mb-md-4 pr-md-">Nike lại tiếp tục tung ra một phối màu sử dụng tông
+                                màu trắng chủ đạo
+                                bằng chất liệu canvas kết hợp denim trên đôi s...</p>
+                            <p class="moreHover">Xem thêm
+                                <i class="fa fa-long-arrow-alt-right"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer__content container px-0">
+            <div class="row mx-0 pb-3 flex-lg-nowrap flex-wrap justify-content-between">
+                <div class="col-12 col-lg-4 mr-5 px-0">
+                    <ul class="px-0">
+                        <li><a href="#"><img src="./img/logo.webp" alt=""></a> </li>
+                        <li>
+                            <span><i class="fa fa-map-marker-alt"></i></span>
+                            <span class="">Tầng 6, Tòa nhà Ladeco, 266 Đội Cấn, Phường Liễu Giai, Quận Ba Đình, TP Hà
+                                Nội</span>
+                        </li>
+                        <li>
+                            <span><i class="fa fa-phone"></i></span>
+                            <span class="moreHover">19006750</span>
+                        </li>
+                        <li>
+                            <span><i class="fa fa-headphones-alt"></i></span>
+                            <span class="moreHover">support@sapo.vn</span>
+                        </li>
+                        <li class="noGap">
+                            <a href="#">
+                                <img src="./img/img_payment_1.webp" alt="">
+                            </a>
+                            <a href="#">
+
+                                <img src="./img/img_payment_2.webp" alt="">
+                            </a>
+                            <a href="#">
+
+                                <img src="./img/img_payment_3.webp" alt="">
+                            </a>
+                            <a href="#">
+
+                                <img src="./img/img_payment_4.webp" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-2 mt-lg-0 mt-3 px-0">
+                    <ul class="px-0">
+                        <li class="d-flex justify-content-between align-items-center">
+                            <h5 class="mb-0 mt-0">VỀ CHÚNG TÔI</h5>
+                            <span class="slideDown" data-id="0">
+                                <i class="fa fa-angle-down d-md-none d-block"></i>
+                            </span>
+                        </li>
+                        <div class="footerSub d-md-block d-none">
+                            <li><a href="#">Trang chủ</a></li>
+                            <li><a href="#">Giới thiệu</a></li>
+                            <li><a href="#">Sản phẩm</a></li>
+                            <li><a href="#">Tin tức</a></li>
+                            <li><a href="#">Liên hệ</a></li>
+                        </div>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-2 mt-lg-0 mt-md-3 mt-0 px-0">
+                    <ul class="px-0">
+                        <li class="d-flex justify-content-between align-items-center">
+                            <h5 class="mb-0 mt-0">CHÍNH SÁCH</h5>
+                            <span class="slideDown" data-id="1">
+                                <i class="fa fa-angle-down d-md-none d-block"></i>
+                            </span>
+                        </li>
+                        <div class="footerSub d-md-block d-none">
+                            <li><a href="#">Trang chủ</a></li>
+                            <li><a href="#">Giới thiệu</a></li>
+                            <li><a href="#">Sản phẩm</a></li>
+                            <li><a href="#">Tin tức</a></li>
+                            <li><a href="#">Liên hệ</a></li>
+                        </div>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4 mt-lg-0 mt-md-3 mt-0 px-0">
+                    <ul class="px-0 socialNike">
+                        <li class="d-flex justify-content-between align-items-center">
+                            <h5 class="mb-0">THEO DÕI CHÚNG TÔI</h5>
+                            <span class="slideDown" data-id="2">
+                                <i class="fa fa-angle-down d-md-none d-block"></i>
+                            </span>
+                        </li>
+                        <div class="footerSub d-md-block d-none">
+                            <li class="socialNike__icon">
+                                <a href="#"><i class="fab fa-youtube"></i>
+                                </a>
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </li>
+                        </div>
+                        <li class="d-flex justify-content-between align-items-center">
+                            <h5 class="mb-0">ĐĂNG KÝ ĐỂ NHẬN THÔNG TIN</h5>
+                            <span class="slideDown" data-id="3">
+                                <i class="fa fa-angle-down d-md-none d-block"></i>
+                            </span>
+                        </li>
+                        <div class="footerSub d-md-block d-none">
+                            <li style="gap: 0;">
+                                <input class="socialNike__input pl-3" type="email" placeholder="Nhập địa chỉ email...">
+                                <button class="btn btn-primary px-3 border-0">Gửi</button>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr noshade="0" class="my-0">
+        <div class="copyRightNike text-center text-white">
+            @ Bản quyền thuộc về ND Team | Cung cấp bởi <a href="#">Sapo</a href="#">
+        </div>
+    </footer>
+    <!-- SIDEBAR CONTACT -->
+    <section id="contactNike" class="">
+        <ul class="pl-0 d-lg-block d-none">
+            <li><a href="#"><i class="fa fa-phone"></i></a></li>
+            <li><a href="#"><i class="fab fa-uber"></i></a></li>
+            <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+            <li><a href="#"><i class="fa fa-map-marker-alt"></i></a></li>
+        </ul>
+    </section>
+    <!-- MOBILE CONTACT SMALL DEVICE -->
+    <section id="mobileContactNike" class="">
+        <ul class="d-flex d-lg-none d-block">
+            <li><a href="#"><i class="fa fa-phone"></i></a></li>
+            <li><a href="#"><i class="fab fa-uber"></i></a></li>
+            <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+            <li><a href="#"><i class="fa fa-map-marker-alt"></i></a></li>
+        </ul>
+    </section>
+    <!-- SIDEBAR PRODUCT LIST -->
+    <section id="sideBarList">
+        <div class="sideBarList__top">
+            <h3>Giỏ hàng</h3>
+            <span id="closeList"><i class="fa fa-times"></i></span>
+        </div>
+        <ul class="sideBarList__list px-0">
+        </ul>
+        <div class="totalBill d-flex justify-content-between mb-3">
+            <span>Tổng tiển</span>
+            <span class="priceMain" id="priceTotal">3.900.000<u>đ</u></span>
+        </div>
+        <div class="sendMoney">
+            <a href="#">
+                Thanh toán
+            </a>
+        </div>
+    </section>
+
+    <!-- NOTICELIKE  -->
+    <section class="" id="noticeList">
+        <div class="noticeLike">
+            <div class="noticeLike__title d-flex justify-content-between align-items-center">
+                <h4 class="mb-0">Tuyệt vời</h4>
+                <span id="closeNotice"><i class="fa fa-times"></i></span>
+            </div>
+            <p class="mb-0">Bạn vừa thêm một sản phẩm vào mục yêu thích thành công, bấm <a href="#">vào đây</a> để đi
+                tới trang yêu thích</p>
+        </div>
+        <div class="noticeLike">
+            <div class="noticeLike__title d-flex justify-content-between align-items-center">
+                <h4 class="mb-0">Tuyệt vời</h4>
+                <span id="closeNotice"><i class="fa fa-times"></i></span>
+            </div>
+            <p class="mb-0">Bạn vừa thêm một sản phẩm vào mục yêu thích thành công, bấm <a href="#">vào đây</a> để đi
+                tới trang yêu thích</p>
+        </div>
+        <div class="noticeLike">
+            <div class="noticeLike__title d-flex justify-content-between align-items-center">
+                <h4 class="mb-0">Tuyệt vời</h4>
+                <span id="closeNotice"><i class="fa fa-times"></i></span>
+            </div>
+            <p class="mb-0">Bạn vừa thêm một sản phẩm vào mục yêu thích thành công, bấm <a href="#">vào đây</a> để đi
+                tới trang yêu thích</p>
+        </div>
+        <div class="noticeLike">
+            <div class="noticeLike__title d-flex justify-content-between align-items-center">
+                <h4 class="mb-0">Tuyệt vời</h4>
+                <span id="closeNotice"><i class="fa fa-times"></i></span>
+            </div>
+            <p class="mb-0">Bạn vừa thêm một sản phẩm vào mục yêu thích thành công, bấm <a href="#">vào đây</a> để đi
+                tới trang yêu thích</p>
+        </div>
+        <div class="noticeLike">
+            <div class="noticeLike__title d-flex justify-content-between align-items-center">
+                <h4 class="mb-0">Tuyệt vời</h4>
+                <span id="closeNotice"><i class="fa fa-times"></i></span>
+            </div>
+            <p class="mb-0">Bạn vừa thêm một sản phẩm vào mục yêu thích thành công, bấm <a href="#">vào đây</a> để đi
+                tới trang yêu thích</p>
+        </div>
+    </section>
+    <section class="" id="noticeUnList">
+        <div class="noticeUnLike">
+            <div class="noticeLike__title d-flex justify-content-between align-items-center">
+                <h4 class="mb-0">Thông báo</h4>
+                <span id="closeNotice"><i class="fa fa-times"></i></span>
+            </div>
+            <p class="mb-0">Bạn vừa bỏ một sản phẩm khỏi mục yêu thích</p>
+        </div>
+    </section>
+    <div class="sideBarOverlay">
+
+    </div>
+    <!-- BS4 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+
+    <!-- MAGNIFIC JS -->
+    <script src="./libraries/jquery.magnific-popup.min.js">
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('.popup-youtube').magnificPopup({
+                disableOn: 100,
+                type: 'iframe',
+                mainClass: 'mfp-fade',
+                removalDelay: 160,
+                preloader: false,
+
+                fixedContentPos: false
+            });
+        });
+
+    </script>
+    <!-- OWL JS -->
+
+    <script src="./libraries/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.carouselNikeService').owlCarousel({
+                loop: true,
+
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 2,
+                        nav: false
+                    },
+                    640: {
+                        items: 3,
+                        nav: false
+                    },
+                    1200: {
+                        items: 4,
+                        // nav: true,
+                        loop: false
+                    }
+                }
+            })
+
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('.productsNike .productsNike__list>.productsNike__listItem').owlCarousel({
+                loop: true,
+
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 2,
+                        nav: false
+                    },
+                    630: {
+                        items: 3,
+                        nav: false
+                    },
+                    770: {
+                        items: 3,
+                        nav: false
+                    },
+                    1000: {
+                        items: 4,
+                        nav: false,
+                        loop: false
+                    }
+                }
+            })
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('.fastSale .productsNike__listItem').owlCarousel({
+                loop: true,
+
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 2,
+                        nav: false
+                    },
+                    640: {
+                        items: 3,
+                        nav: false,
+                        dots: true
+                    },
+                    760: {
+                        items: 3,
+                        nav: false,
+                        dots: false
+                    }
+                    ,
+                    1000: {
+                        items: 4,
+                        nav: false,
+                        loop: false
+                    }
+                }
+            })
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('.sneaker .productsNike__listItem').owlCarousel({
+                loop: true,
+
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 2,
+                        nav: false
+                    },
+                    640: {
+                        items: 2,
+                        nav: false,
+                        dots: true
+                    },
+                    770: {
+                        items: 3,
+                        nav: false,
+                        dots: false
+                    }
+                    ,
+                    1000: {
+                        items: 4,
+                        nav: false,
+                        loop: false
+                    }
+                }
+            })
+        });
+    </script>
+    <script>
+        $('.feedback__img').owlCarousel({
+            loop: true,
+            margin: 10,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 2,
+                    nav: true
+                },
+                767: {
+                    items: 3,
+                    nav: false
+                },
+                1000: {
+                    items: 4,
+                    nav: true,
+                    loop: false,
+                    dots: true
+                }
+            }
+        })
+    </script>
+    <!-- MAIN JS -->
+    <script src="./main.js"></script>
+</body>
+
+</html>
